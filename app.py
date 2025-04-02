@@ -33,7 +33,7 @@ if disp_box:  # al hacer clic en el botón
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
 
     # crear un gráfico de dispersión
-    fig_disp = px.scatter(car_data, x="year", y="price",
+    fig_disp = px.scatter(car_data, x="model_year", y="price",
                           title="Relación entre Año y Precio")
 
     # mostrar un gráfico Plotly interactivo
